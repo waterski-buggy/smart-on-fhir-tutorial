@@ -20,7 +20,7 @@
     <script src='./lib/fhir-client.js'></script>
     <script>
       function ready(smart) {
-        var patient = smart.api.read({type: 'Patient', id: '711924'}).then(function(response) {
+        var patient = smart.api.read({type: 'Patient', id: '4342008'}).then(function(response) {
          document.body.innerText = JSON.stringify(response);
         });
        }
